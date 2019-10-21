@@ -1,0 +1,11 @@
+*{padding:0; margin:0;}
+ul,li{list-style:none;}
+body{font:12px/20px "Microsoft Yahei","SimSun",Arial,sans-serif; background-image:url('img/jiasijie.png');background-position:center;}
+
+.padDiv{width:1000px; height:100px; margin:0 auto;}
+
+.heartPic{width:749px; height:1000px; margin:0 auto;}
+ul{float:left; width:749px;}
+ul li{float:left; width:100px; height:100px; padding:2px; cursor:pointer;}
+ul li.on{z-index:99;}
+ul li.on .in{position:relative;left:-50px; top:-50px; padding:5px; background:#000;}

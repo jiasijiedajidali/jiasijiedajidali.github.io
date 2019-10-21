@@ -1,0 +1,9 @@
+$(function(){
+	$("li").hover(function(){
+		$(this).addClass("on");
+		$(this).find("img").animate({"width":"300px","height":"430px"});
+	},function(){
+		$(this).animate({height:"100px"},100).removeClass("on");
+		$(this).find("img").stop(true,true).animate({"width":"100px","height":"100px"});
+	});
+})
