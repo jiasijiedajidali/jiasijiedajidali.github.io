@@ -121,12 +121,12 @@
                            ( body.dataset ) ;
         // && ( ua.search(/(iphone)|(ipod)|(android)/) === -1 );
     
-    if (!impressSupported) {
-        body.className += " impress-not-supported ";
-    } else {
+    // if (!impressSupported) {
+    //     body.className += " impress-not-supported ";
+    // } else {
         body.classList.remove("impress-not-supported");
         body.classList.add("impress-supported");
-    }
+    // }
     
     var roots = {};
     
