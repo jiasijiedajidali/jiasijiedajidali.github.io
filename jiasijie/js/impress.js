@@ -118,9 +118,8 @@
                            ( pfx("perspective") !== null ) &&
                            
                            ( body.classList ) &&
-                           ( body.dataset ) &&
-                           
-                           ( ua.search(/(iphone)|(ipod)|(android)/) === -1 );
+                           ( body.dataset ) ;
+        // && ( ua.search(/(iphone)|(ipod)|(android)/) === -1 );
     
     if (!impressSupported) {
         body.className += " impress-not-supported ";
